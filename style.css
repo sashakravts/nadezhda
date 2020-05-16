@@ -1,0 +1,630 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(/Users/Elena/Desktop/website/RubikMonoOne-Regular.ttf);
+  }
+.myname{
+    position: absolute;
+width: 1200px;
+height: 23px;
+left: 83px;
+top: 63px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 8pt;
+line-height: 17px;
+
+color: #000000;
+}
+.line{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 160px;
+
+border: 1px solid #000000;
+}
+.aboutme{
+    position: absolute;
+width: 1200px;
+height: 170px;
+left: 350px;
+top:200px;
+    font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 500px;
+color: black;
+}
+.aboutme:hover{
+    color: white;
+text-shadow: 
+2px   0  0   black, 
+-2px   0  0   black, 
+0    2px 0   black, 
+0   -2px 0  black, 
+1px  1px 0  black, 
+-1px -1px 0   black, 
+1px -1px 0   black, 
+-1px  1px 0   black,
+1px  1px 5px black;
+}
+
+ .textabout{
+    position: absolute;
+    width: 1800px;
+    height: 16px;
+    left: 10px;
+    top: 250px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 11px;
+    word-spacing: 0px;
+    z-index: 2;
+    
+    color: #000000;
+ }   
+.mylitso{
+    position: absolute;
+width: 90px;
+height: 63px;
+left: 1200px;
+top: 160px;
+z-index: 1;
+transition: transform .2s;
+}
+.mylitso:hover
+{
+    transform: scale(2); 
+}
+.line2{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 260px;
+
+border: 1px solid #020202;
+}
+.portraits{
+    position: absolute;
+width: 1900px;
+height: 85px;
+left: 0px;
+top: 300px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 100px;
+color: black;
+}
+.portraits:hover{
+    color: white;
+text-shadow: 
+2px   0  0   black, 
+-2px   0  0   black, 
+0    2px 0   black, 
+0   -2px 0  black, 
+1px  1px 0  black, 
+-1px -1px 0   black, 
+1px -1px 0   black, 
+-1px  1px 0   black,
+1px  1px 5px black;
+}
+
+.bukva{
+    position: absolute;
+width: 79px;
+height: 62px;
+left: 800px;
+top: 265px;
+transition: transform .2s;
+z-index: 1;
+}
+.bukva:hover
+{
+    transform: scale(2);   
+}
+.img3{
+    position: absolute;
+width: 79px;
+height: 62px;
+left: 1200px;
+top: 265px;
+transition: transform .2s;
+z-index: 1;
+}
+.img3:hover{
+    transform: scale(2); 
+}
+.portraitsofpeople{
+    position: absolute;
+width: 1800px;
+height: 16px;
+left: 0px;
+top: 350px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 10pt;
+line-height: 11px;
+word-spacing: 0px;
+z-index: 2;
+
+color: #000000;
+
+}
+.line3{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 2px;
+top: 360px;
+
+border: 1px solid #020202;
+}
+
+.local{
+    position: absolute;
+width: 1850px;
+height: 82px;
+left: 95px;
+top: 400px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 170px;
+color: #000000;
+}
+.local:hover{
+color: white;
+text-shadow: 
+2px   0  0   black, 
+-2px   0  0   black, 
+0    2px 0   black, 
+0   -2px 0  black, 
+1px  1px 0  black, 
+-1px -1px 0   black, 
+1px -1px 0   black, 
+-1px  1px 0   black,
+1px  1px 5px black;
+}
+.localtext{
+    position: absolute;
+width: 1800px;
+height: 16px;
+left: 10px;
+top: 450px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 10pt;
+line-height: 11px;
+word-spacing: 0px;
+z-index: 2;
+}
+.img4{
+    position: absolute;
+width: 80px;
+height: 61px;
+left: 0px;
+top: 363px;
+z-index: 1;
+transition: transform .2s;
+}
+.img4:hover{
+    transform: scale(2); 
+}
+.img5{
+    position: absolute;
+    width: 80px;
+    height: 61px;
+    left: 520px;
+    top: 363px;
+    z-index: 1;
+    transition: transform .2s;
+}
+.img5:hover{
+    transform: scale(2);  
+}
+.img6{
+    position: absolute;
+    width: 80px;
+    height: 61px;
+    left: 1500px;
+    top: 363px;
+    z-index: 1;
+    transition: transform .2s;
+    }
+    .img6:hover{
+        transform: scale(2);
+}
+.line4{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 460px;
+border: 1px solid #020202;
+}
+.exhibit{
+    position: absolute;
+width: 1950px;
+height: 83px;
+left: 0px;
+top: 500px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 110px;
+color: #000000;
+}
+.exhibit:hover{
+    color: white;
+    text-shadow: 
+    2px   0  0   black, 
+    -2px   0  0   black, 
+    0    2px 0   black, 
+    0   -2px 0  black, 
+    1px  1px 0  black, 
+    -1px -1px 0   black, 
+    1px -1px 0   black, 
+    -1px  1px 0   black,
+    1px  1px 5px black;
+    }
+.extext{
+    position: absolute;
+width: 1800;
+height: 16px;
+left: 10px;
+top: 545px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 10pt;
+line-height: 11px;
+z-index: 2;
+
+color: #000000;
+}
+.line5{
+    position: absolute;
+    width: 1950px;
+    height: 0px;
+    left: 0px;
+    top: 555px;
+    border: 1px solid #020202;
+}
+.russian{
+    position: absolute;
+width: 1800px;
+height: 81px;
+left: 321px;
+top: 595px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 110px;
+color: #000000;
+}
+.russian:hover{
+    color: white;
+    text-shadow: 
+    2px   0  0   black, 
+    -2px   0  0   black, 
+    0    2px 0   black, 
+    0   -2px 0  black, 
+    1px  1px 0  black, 
+    -1px -1px 0   black, 
+    1px -1px 0   black, 
+    -1px  1px 0   black,
+    1px  1px 5px black;
+    }
+.russiantext{
+    position: absolute;
+width: 1800px;
+height: 16px;
+left: 10px;
+top: 645px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 10pt;
+line-height: 11px;
+color: #000000;
+z-index: 2;
+}
+.img7{
+    position: absolute;
+width: 80px;
+height: 64px;
+left: 100px;
+top: 560px;
+z-index: 1;
+transition: transform .2s;
+}
+.img7:hover{
+    transform: scale(2);  
+}
+.img8{
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    left: 960px;
+    top: 560px;
+    z-index: 1;
+    transition: transform .2s;  
+}
+.img8:hover{
+    transform: scale(2);  
+}
+.img9{
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    left: 1700px;
+    top: 560px;
+    z-index: 1;
+    transition: transform .2s;  
+}
+.img9:hover{
+    transform: scale(2);  
+}
+.line6{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 655px;
+border: 1px solid #020202;
+}
+.imposter{
+    position: absolute;
+width: 1283px;
+height: 80px;
+left: 110px;
+top: 696px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 170px;
+color: #000000;
+}
+.imposter:hover{
+    color: white;
+    text-shadow: 
+    2px   0  0   black, 
+    -2px   0  0   black, 
+    0    2px 0   black, 
+    0   -2px 0  black, 
+    1px  1px 0  black, 
+    -1px -1px 0   black, 
+    1px -1px 0   black, 
+    -1px  1px 0   black,
+    1px  1px 5px black;
+    }
+.impostertext{
+    position: absolute;
+width: 1950px;
+height: 16px;
+left: 10px;
+top: 740px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 10pt;
+line-height: 11px;
+z-index: 2;
+
+color: #000000;
+}
+.img10{
+    position: absolute;
+width: 84px;
+height: 68px;
+left: 0px;
+top: 660px;
+transition: transform .2s;
+}
+.img10:hover{
+    transform: scale(2);
+}
+.img11{
+    position: absolute;
+width: 84px;
+height: 68px;
+left: 500px;
+top: 660px;
+transition: transform .2s;
+}
+.img11:hover{
+    transform: scale(2);
+}
+.img12{
+    position: absolute;
+width: 84px;
+height: 68px;
+left: 1360px;
+top: 660px;
+transition: transform .2s;
+}
+.img12:hover{
+    transform: scale(2);
+}
+.line7{
+    position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 750px;
+border: 1px solid #020202;
+}
+.abaab{
+    position: absolute;
+width: 1950px;
+height: 83px;
+left: 10px;
+top: 790px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 0px;
+color: #000000;
+}
+.abaab:hover{
+    color: white;
+    text-shadow: 
+    2px   0  0   black, 
+    -2px   0  0   black, 
+    0    2px 0   black, 
+    0   -2px 0  black, 
+    1px  1px 0  black, 
+    -1px -1px 0   black, 
+    1px -1px 0   black, 
+    -1px  1px 0   black,
+    1px  1px 5px black;
+    }
+    .abaabtext{
+        position: absolute;
+        width: 1950px;
+        height: 16px;
+        left: 10px;
+        top: 835px;
+        
+        font-family: Rubik Mono One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        line-height: 11px; 
+        z-index: 2; 
+    }
+    .img13{
+        position: absolute;
+        width: 84px;
+        height: 68px;
+        left: 95px;
+        top: 755px;
+        transition: transform .2s;
+        }
+        .img13:hover{
+            transform: scale(2);  
+    }
+    .img14{
+        position: absolute;
+        width: 84px;
+        height: 68px;
+        left: 525px;
+        top: 755px;
+        transition: transform .2s;
+        }
+        .img14:hover{
+            transform: scale(2);  
+    }
+    .img15{
+        position: absolute;
+        width: 84px;
+        height: 68px;
+        left: 1212px;
+        top: 755px;
+        transition: transform .2s;
+        }
+        .img15:hover{
+            transform: scale(2);  
+    }
+    .line8{
+        position: absolute;
+width: 1950px;
+height: 0px;
+left: 0px;
+top: 845px;
+border: 1px solid #020202;    
+    }
+    .poster{
+        position: absolute;
+width: 1800px;
+height: 86px;
+left: 164px;
+top: 885px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 76pt;
+line-height: 17px;
+word-spacing: 0px;
+color: #000000;
+    }
+    .poster:hover{
+        color: white;
+        text-shadow: 
+        2px   0  0   black, 
+        -2px   0  0   black, 
+        0    2px 0   black, 
+        0   -2px 0  black, 
+        1px  1px 0  black, 
+        -1px -1px 0   black, 
+        1px -1px 0   black, 
+        -1px  1px 0   black,
+        1px  1px 5px black;
+        }
+        .postertext{
+            position: absolute;
+            width: 1950px;
+            height: 16px;
+            left: 10px;
+            top: 930px;
+            
+            font-family: Rubik Mono One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10pt;
+            line-height: 11px; 
+            z-index: 2;   
+        }
+        .line9{
+            position: absolute;
+            width: 1950px;
+            height: 0px;
+            left: 0px;
+            top: 940px;
+            border: 1px solid #020202; 
+        }
+        .contact{
+            position: absolute;
+width: 841px;
+height: 23px;
+left: 83px;
+top: 1030px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+        }
+        

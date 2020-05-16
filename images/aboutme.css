@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(/Users/Elena/Desktop/website/RubikMonoOne-Regular.ttf);
+  }
+body{
+    background-image: url(/Users/Elena/Desktop/website/images/paper.jpg);
+}
+.myname{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 79px;
+    top: 39px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 17px;
+    
+    color: #000000;
+    
+}
+.aboutme{
+    position: absolute;
+width: 621px;
+height: 23px;
+left: 79px;
+top: 150px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14pt;
+line-height: 17px;
+
+color: #000000;
+
+}
+.abouttext{
+    position: absolute;
+width: 646px;
+height: 521px;
+left: 81px;
+top: 160px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 15px;
+
+color: #000000;
+}
