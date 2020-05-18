@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(../RubikMonoOne-Regular.ttf);
+  }
+.body{
+    background-image: url(../images/paper.jpg);
+}
+.myname{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 79px;
+    top: 39px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 17px;
+    
+    color: #000000;
+    
+}
+.rus{
+    position: absolute;
+    width: 841px;
+    height: 43px;
+    left: 870px;
+    top: 242px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+.rutext{
+    position: absolute;
+width: 557px;
+height: 480px;
+left: 870px;
+top: 300px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: bold;
+font-size: 6pt;
+line-height: 16px;
+
+color: #000000;
+     
+}
+.ru{
+    position: absolute;
+width: 645px;
+height: 444px;
+left: 77px;
+top: 242px;
+
+}
+.contact{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 83px;
+    top: 1100px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;   
+}

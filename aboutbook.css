@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(../RubikMonoOne-Regular.ttf);
+  }
+.body{
+    background-image: url(../images/paper.jpg);
+}
+.myname{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 79px;
+    top: 39px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 17px;
+    
+    color: #000000;
+    
+}
+.book{
+    position: absolute;
+    width: 841px;
+    height: 43px;
+    left: 870px;
+    top: 242px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+.botext{
+    position: absolute;
+width: 557px;
+height: 480px;
+left: 870px;
+top: 300px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: bold;
+font-size: 6pt;
+line-height: 16px;
+
+color: #000000;
+     
+}
+.a1{
+    position: absolute;
+    width: 201px;
+    height: 271px;
+    left: 98px;
+    top: 242px;
+
+}
+.a2{
+    position: absolute;
+    width: 199px;
+    height: 270px;
+    left: 366px;
+    top: 242px;
+    ;
+
+}
+.a3{
+  position: absolute;
+    width: 202px;
+    height: 274px;
+    left: 98px;
+    top: 570px;
+
+}
+.a4{
+    position: absolute;
+    width: 213px;
+    height: 289px;
+    left: 366px;
+    top: 570px;
+    
+
+}
+.contact{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 83px;
+    top: 1100px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;   
+}

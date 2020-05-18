@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(../RubikMonoOne-Regular.ttf);
+  }
+.body{
+    background-image: url(../images/paper.jpg);
+}
+.myname{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 79px;
+    top: 39px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 17px;
+    
+    color: #000000;
+    
+}
+.local{
+    position: absolute;
+width: 841px;
+height: 43px;
+left: 870px;
+top: 242px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+}
+.localtext{
+    position: absolute;
+width: 557px;
+height: 480px;
+left: 10px;
+top: 150px;
+
+font-family: Rounded Mplus 1c Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 6pt;
+line-height: 16px;
+
+color: #000000;
+}
+.locals{
+    position: absolute;
+    width: 645px;
+    height: 398px;
+    left: 82px;
+    top: 242px;
+}
+.img6{
+
+position: absolute;
+width: 102px;
+height: 80px;
+left: 82px;
+top: 660px;
+}
+.chel{
+    position: absolute;
+width: 40px;
+height: 80px;
+left: 221px;
+top: 660px;
+}
+.sofa{
+    position: absolute;
+width: 116px;
+height: 80px;
+left: 300px;
+top: 660px;
+}
+.gost{
+
+position: absolute;
+width: 98px;
+height: 80px;
+left: 455px;
+top: 660px;
+
+}
+.contact{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 83px;
+    top: 1100px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;   
+}

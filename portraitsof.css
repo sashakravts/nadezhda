@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(../RubikMonoOne-Regular.ttf);
+  }
+.body{
+    background-image: url(../images/paper.jpg);
+}
+.myname{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 79px;
+    top: 39px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8pt;
+    line-height: 17px;
+    
+    color: #000000;
+    
+}
+.portraitsof{
+    position: absolute;
+width: 841px;
+height: 43px;
+left: 738px;
+top: 242px;
+
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+}
+.img16{
+    position: absolute;
+width: 344px;
+height: 488px;
+left: 80px;
+top: 242px;
+}
+.img17{
+    position: absolute;
+    width: 168px;
+    height: 234px;
+    left: 448px;
+    top: 242px;
+      
+}
+.img18{
+    position: absolute;
+    width: 166px;
+    height: 234px;
+    left: 448px;
+    top: 496px;  
+}
+.ptext{
+    position: absolute;
+width: 560px;
+height: 409px;
+left: 738px;
+top: 299px;
+font-family: Rubik Mono One;
+font-style: normal;
+font-weight: normal;
+font-size: 6pt;
+line-height: 16px;
+
+color: #000000;
+}
+.contact{
+    position: absolute;
+    width: 841px;
+    height: 23px;
+    left: 83px;
+    top: 1100px;
+    
+    font-family: Rubik Mono One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;   
+}

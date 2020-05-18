@@ -1,6 +1,6 @@
 @font-face {
     font-family: Rubik Mono One;
-    src: url(../RubikMonoOne-Regular.ttf); 
+    src: url(/Users/Elena/Desktop/website/RubikMonoOne-Regular.ttf);
   }
 .myname{
     position: absolute;
@@ -8,7 +8,6 @@ width: 1200px;
 height: 23px;
 left: 83px;
 top: 63px;
-
 
 font-family: Rubik Mono One;
 font-style: normal;
